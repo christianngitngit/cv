@@ -13,7 +13,7 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: "Luna", sans-serif;
-    background-image: url(main.jpg);
+    background-image: url(images/main.jpg);
     background-attachment: fixed;
     background-size: 100%;
 }
