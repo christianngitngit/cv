@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Parallax Effect Pure CSS</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div class="bg-1 parallax">
+      <header>
+        <div class="logo">
+          <img src="" alt="logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
         <h1>Parallax Effect</h1>
         <p>Pure CSS || No Javascript</p>
-    </header>
-    <div>
-
+      </header>
+      <div id="skills" class="flex-row bg-blank">
+        <h2>Skills</h2>
+      </div>
     </div>
-</body>
+
+    <div class="bg-2 parallax">
+      <div id="projects" class="flex-row">
+        <h2>Projects</h2>
+        <div class="card"></div>
+        <div id="card"></div>
+        <div id="card"></div>
+      </div>
+      <div id="skills" class="flex-row bg-blank">
+        <h2>Skills</h2>
+      </div>
+    </div>
+  </body>
 </html>
